@@ -5,6 +5,7 @@ import config
 import datetime
 
 
+
 root_path='/mnt/storage1/ns/'
 
 mydb = mysql.connector.connect(user=config.db_user, password=config.db_passwd,host=config.db_host,database=config.database)
